@@ -9,3 +9,4 @@ print(df)
 profile = ProfileReport(df)
 #profile = ProfileReport(df, minimal=True)
 profile.to_file(output_file="dateset.html")
+
